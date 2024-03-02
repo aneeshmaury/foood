@@ -7,7 +7,7 @@ export default function Hero() {
     <h1 className="text-6xl font-bold w-54 text-center md:text-[100px] md:leading-[90px] md:w-[550px]">Welcome to a taste of home..</h1>
     <p className='text-[10px] mt-6 w-[260px] md:font-bold md:text-[12px] md:w-[400px]'>Indulge in our flavors, Where 
     each tells a story, inviting you to savor every moment
-     of culinary delight.</p>
+     of culinary delight..</p>
     <button className="bg-yellow-500 w-32 py-2 mt-6">our menu</button>
 </div>
 <div className="flex justify-center mt-11">
