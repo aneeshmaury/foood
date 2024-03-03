@@ -1,4 +1,5 @@
 
+import Bottomhero from "./components/bottomhero";
 import Hero from "./components/hero";
 import Navbaar from "./navbar";
 
@@ -7,6 +8,7 @@ export default function Home() {
    <div className="pl-4 pr-4">
     <Navbaar/>
     <Hero/>
+    <Bottomhero/>
    </div>
   );
 }
