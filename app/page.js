@@ -1,6 +1,7 @@
 
 import Bottomhero from "./components/bottomhero";
 import Hero from "./components/hero";
+import Ourmenu from "./components/ourmenu";
 import Navbaar from "./navbar";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
     <Navbaar/>
     <Hero/>
     <Bottomhero/>
+    <Ourmenu/>
    </div>
   );
 }
