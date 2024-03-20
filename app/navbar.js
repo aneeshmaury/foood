@@ -1,39 +1,22 @@
-import { FaSearch } from "react-icons/fa";
-import { FaShoppingBag } from "react-icons/fa";
-import { MdAccountCircle } from "react-icons/md";
+import React from 'react'
 
-import React from 'react';
-
-function Navbar() {
+export default function Hero() {
   return (
-    <nav>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b-2">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex">
-            {/* Logo */}
-            <div className="flex-shrink-0">
-             <h1 className="text-black font-bold text-3xl">FOOD</h1>
-            </div>
+    <div className='mt-11 md:flex items-center md:justify-around'>
+<div className='flex flex-col items-center '>
+    <h1 className="text-6xl font-bold w-54 text-gray-900 text-center md:text-[100px] md:leading-[90px] md:w-[550px]">Welcome to a taste of home..</h1>
+    <p className='text-[10px] mt-6 w-[260px] text-gray-800 md:font-bold md:text-[12px] md:w-[400px]'>Indulge in our flavors, Where 
+    each tells a story, inviting you to savor every moment
+     of culinary delight..</p>
+    <button className="bg-yellow-500 w-32 py-2 mt-6">our menu</button>
+</div>
+<div className="flex justify-center mt-11">
+<img className='w-44 h-44 md:w-[400px] md:h-[400px]' src='./pngegg.png'/>
+</div>
 
-            {/* Menu items */}
-            <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
-                <a href="#" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                <a href="#" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Our Menu</a>
-                <a href="#" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Services</a>
-                <a href="#" className="text-black hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Testimonial</a>
-              </div>
-            </div>
-          </div>
+    </div>
 
-          {/* Search bar */}
-          <div className="flex gap-4 text-2xl"><FaShoppingBag/>
-          <MdAccountCircle/>
-          </div>
-        </div>
-      </div>
-    </nav>
-  );
+
+
+  )
 }
-
-export default Navbar;
