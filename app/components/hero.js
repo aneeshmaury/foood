@@ -1,6 +1,5 @@
 import React from 'react'
-import Lottie from 'react-lottie';
-import foodcor from '../animated/foodcor.json';
+
 
 
 export default function Hero() {
@@ -14,7 +13,7 @@ export default function Hero() {
     <button className="bg-yellow-500 w-32 py-2 mt-6">our menu</button>
 </div>
 <div className="flex justify-center mt-11">
-<Lottie animationData={foodcor}/>
+
 </div>
 
     </div>
